@@ -1,0 +1,14 @@
+{
+  "name": "endgame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --workspace=api-reliability-assistant --",
+    "build": "npm run build --workspace=api-reliability-assistant",
+    "start": "npm run start --workspace=api-reliability-assistant --",
+    "lint": "npm run lint --workspace=api-reliability-assistant"
+  },
+  "workspaces": [
+    "api-reliability-assistant"
+  ]
+}
